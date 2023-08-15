@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,900;1,400&display=swap" rel="stylesheet">
+
+    <title>Formulario</title>
+</head>
+<body>
+    <img src="./images/Planet.gif" alt="planet" class="planet">
+    <div class="container">
+        <div class="header">
+            <h2>Crie uma Conta</h2>
+        </div>
+
+        <form id="form" class="form">
+            <div class="form-control ">
+                <label for="username">Nome de usuário</label>
+
+                <input type="text"
+                 id="username"
+                 placeholder="informe seu nome de usuario">
+
+                <i class="fas fa-exclamation-triangle"></i>
+                <i class="fas fa-check-circle"> </i>
+                <small>Dados incorretos</small>
+            </div>
+
+
+
+            <div class="form-control ">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="informe seu email">
+                <i class="fas fa-exclamation-triangle"></i>
+                <i class="fas fa-check-circle"> </i>
+                <small>Dados incorretos</small>
+            </div>
+
+
+
+            <div class="form-control">
+                <label for="password">Senha</label>
+                <input type="password" id="password" placeholder="informe sua senha">
+                <i class="fas fa-exclamation-triangle"></i>
+                <i class="fas fa-check-circle"> </i>
+                <small>Dados incorretos</small>
+            </div>
+
+
+            <div class="form-control">
+                <label for="password-confirmation">Senha</label>
+                <input type="password" id="password-confirmation" placeholder="confirme sua senha">
+                <i class="fas fa-exclamation-triangle"></i>
+                <i class="fas fa-check-circle"> </i>
+                <small>Dados incorretos</small>
+            </div>
+
+      <button type="submit"> Enviar</button>
+
+
+        </form>
+    </div>
+    
+
+
+
+
+    <script src="https://kit.fontawesome.com/54075e54a0.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

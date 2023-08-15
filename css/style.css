@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  font-family: 'Poppins', sans-serif;;
+}
+
+.planet{
+    position: absolute;
+    width: 8%;
+    max-width: 100%;
+    top: 1%;
+    border-radius: 100%;
+    left: 1%;
+}
+body{
+    min-height: 105vh;
+    width: 100%;
+    background:linear-gradient(rgb(43, 42, 42), rgb(61, 10, 34)) ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    bottom: 10px;
+}
+
+.container{
+  padding: 3em;
+    border-radius: 2%;
+    background-color: rgb(95, 66, 93);
+    box-shadow: 0 2px 5px rgb(97, 9, 75);
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+
+}
+.header{
+    background-color: aliceblue;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.form {
+    padding: 20px;
+}
+.form-control{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+
+}
+.form-control input {
+   border:  2px solid gray;
+   border-radius: 5px;
+   display: block;
+   font-size: 14px;
+   width: 100%;
+   padding: 10px;
+
+}
+
+.form-control i{
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    visibility: hidden
+}
+
+.form-control small{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.form button{
+    padding: 5px;
+    border: 2px solid black;
+    background-color: blueviolet;
+    font-size:  14px;
+    border-top-right-radius: 7px;
+    width: 100%;
+    color: aliceblue;
+}
+/* error and success*/
+
+.form-control.success input {
+    border-color: rgb(11, 255, 11);
+}
+.form-control.error input {
+    border-color: red;
+}
+.form-control.success i.fa-check-circle{
+    color: rgb(10, 207, 36);
+    visibility: visible;
+
+}
+.form-control.error i.fa-exclamation-triangle{
+    color: rgb(173, 16, 5);
+    visibility: visible;
+
+}
+
+.form-control.error small{
+    visibility: visible;
+    color: red;
+}
